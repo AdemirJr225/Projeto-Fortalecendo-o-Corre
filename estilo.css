@@ -1,0 +1,448 @@
+/* css reset */
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	}
+
+body{
+    background-color:#222;
+    font-family:tahoma;
+}
+
+@font-face{
+	font-family:novafonte;
+	src:url(fontes/LibreBaskerville-Regular.ttf);
+	}
+
+.texto2{
+        font-family:novafonte;
+        font-size:32px;
+        color:#000;
+        text-align: center;
+        }
+
+.texto{
+	font-family:novafonte;
+	font-size:50px;
+	}
+
+main{
+	position:relative;
+	width:100%;
+	height:700px;
+	background-color:#222;
+	margin:auto;
+    color:#FFF;
+	}
+
+#cabecalho{
+	position:fixed;
+    top:0;
+    left:0;
+    z-index:3;
+	width:100%;
+	height:65px;
+    background-color:rgb(19, 19, 19);
+    display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	}
+
+.delivery{
+    margin-top: 13px;
+    height:40px;
+    width:45%;
+    border-radius: 20px;
+    background-color: #e20505;
+    color:#FFF;
+    border:solid 2px #ffffff;
+    margin-left:42%;
+}
+
+/*
+#informacoes{
+    width: 80%;
+    height:600px;
+    margin: 0 auto;
+    background-color: #b11d1d;
+    margin-top: 50px;
+  
+} */
+
+
+div h2{
+
+   
+    font-size:28px;
+    margin-top:-130px;
+    
+}
+
+.delisia{
+    padding-top: 40px;
+  
+}
+
+#tambemtemos{
+    position: relative;
+    float: left;
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item1.png);
+    margin-left: 100px;
+    margin-top: 90px;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+#tambemtemos1{
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item2.png);
+    float: left;
+    margin-left: 210px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+
+#tambemtemos2{
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item3.png);
+    float: left;
+    margin-left: 190px;
+    margin-top: 90px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    
+}
+
+#tambemtemos3{
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item4.png);
+    float: left;
+    margin-left: 100px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+#tambemtemos4{
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item5.png);
+    float: left;
+    margin-left: 210px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+
+#tambemtemos5{
+    width: 18%;
+    height:240px;
+    background-image: url(imagens/item6.png);
+    float: left;
+    margin-left: 190px;
+    margin-top: 150px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+}
+
+
+
+
+
+#menu{
+text-align: center;
+position:relative;
+width:100%;
+height:1000px;
+margin:auto;
+background-color:#db631d;
+display:block;
+
+
+    }
+
+
+
+#menu_esquerdo{
+	position:relative;
+	width:35%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	padding-top:20px;
+	padding-bottom:20px;
+  
+  	}
+
+#menu_esquerdo a{
+    font-size:16px;
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+	font-weight:bold;
+	}
+#menu_direito{
+	position:relative;
+	width:35%;
+	height:40px;
+	display:flex;
+	justify-content:space-around;
+	}
+
+.link1{
+	width:100px;
+	height:50px;
+	float:left;
+	}
+
+#menu_direito img{
+	width:100%;
+	height:100%;
+	}
+
+.link2{
+	border:1px solid #333;
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+	width:100px;
+	height:auto;
+	float:left;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-weight:bold;
+	}
+
+.link3, .link4{
+	text-align:center;
+	font-size:12px;
+	color:#FFF;
+	text-decoration:none;
+	font-family:arial;
+	width:200px;
+	height:auto;
+	float:left;
+	background-color:#13615E;
+	padding-top:20px;
+	padding-bottom:25px;
+	font-weight:bold;
+	}
+.link4{
+	width:150px;
+	/*height:auto;*/
+	}
+
+
+.slider{
+    width:1280px;
+    height:500px;
+    margin:auto;
+    margin-top:10px;
+}
+    
+.slider li{
+    list-style: none;
+    
+}
+.slider img{
+    vertical-align: top;
+}
+
+#lado_esquerdo{
+	position:relative;
+	width:50%;
+	height:400px;
+	float:left;
+	display:flex;
+	flex-direction: column;
+	justify-content:space-around;
+    margin-left:50px;
+	}
+
+#titulo_meio{
+	font-weight:bold;
+	color:#FFF;
+	height:100px;
+    margin-top:100px; 
+	}
+
+#lado_esquerdo p{
+	font-family:verdana;
+	font-size:20px;	
+	color: #FFF;
+	height:100px;
+	}
+
+#lado_direito{
+	position:relative;
+	width:40%;
+	height:400px;
+	float:left;
+    margin-top:35px;
+	}
+
+#topo{
+	position:relative;
+	width:100%;
+	height:auto;
+	}
+
+.direita{
+	float:right;
+	}
+
+
+    #quem_somos{
+    position:relative;
+	width:100%;
+	height:600px;
+	margin:auto;
+	   background-color:#fae41c;
+    }
+
+    
+
+       
+
+        .mapinha{
+            border-radius: 20px;
+        }
+
+	
+    .link6{
+        position:absolute;
+        text-align:center;
+        font-size:12px;
+        color:#FFF;
+        text-decoration:none;
+        font-family:arial;
+        width:150px;
+        height:auto;
+        float:left;
+        margin-left:25px;
+        margin-top:15px;
+        background-color:#13615E;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-weight:bold;
+        border-radius:5%;
+        top:400px;
+        left:200px;
+        }
+
+        #abacontato{
+            position:relative;
+            width:100%;
+            height:600px;
+            margin:auto;
+            background-color:#fff897;
+            padding-top:20px;
+            display: block;
+            }
+
+         .botao{
+            width:100px;
+            height:30px;
+            background-color: #000;
+            color:#FFF;
+            margin-left:310px;
+         }
+         h1{
+             text-align:center;
+             color:#000;
+             font-family:tahoma;
+             font-weight: normal;
+
+         }
+
+         .nome{
+             border: 2px solid #000;
+             margin-left: 180px;
+             width: 320px;
+             height:30px;
+         }
+         .email{
+            border: 2px solid #000;
+            margin-left:30px;
+            width:320px;
+            height:30px;
+        }
+         .fone{
+            border: 2px solid #000;
+            width:320px;
+            margin-left: 30px;
+            height:30px;
+
+         }
+
+         .mensagem{
+             border: 2px solid #000;
+             margin-top: 40px;
+             width:700px;
+             margin-left: 330px;
+         }
+
+         .opiniao{
+             color: #000;
+             margin-top: 30px;
+             margin-left: 370px;
+         }
+
+        .rede1{
+            margin-left: 300px;
+            display: flex;
+            align-items: center;
+             color: #ffffff;
+            padding-top: 10px;
+         }
+
+        .insta{
+             margin-left: 10px;
+             margin-top: 25px;
+         }
+
+        .rede2{
+             color: #ffffff;
+             margin-left: 630px;
+             display: flex;
+             align-items: center;
+             margin-top: -78px;
+         }
+
+        .zap{
+            margin-left: 10px;
+            margin-top: 25px;
+        }
+
+        .endereco{
+            margin-top: 20px;
+            margin-left: 438px;
+        }
+         
+
+         footer{
+            position:relative;
+            width:100%;
+            height:170px;
+            background-color:rgb(5, 1, 1);
+            display: block;
+        
+            }
+         footer img{
+             margin-top: 15px;
+             width:60px;
+             height: 60px;
+             margin-left:100px;
+         }
