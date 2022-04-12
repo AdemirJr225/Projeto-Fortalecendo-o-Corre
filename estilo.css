@@ -82,90 +82,45 @@ div h2{
 
 .delisia{
     padding-top: 40px;
+    text-align:center;
   
 }
 
-#tambemtemos{
-    position: relative;
-    float: left;
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item1.png);
-    margin-left: 100px;
-    margin-top: 90px;
-    border-radius: 30px;
-    background-repeat: no-repeat;
-}
-#tambemtemos1{
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item2.png);
-    float: left;
-    margin-left: 210px;
-    margin-top: 90px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
+#tambemtemos {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
 }
 
-#tambemtemos2{
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item3.png);
-    float: left;
-    margin-left: 190px;
-    margin-top: 90px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-    
+.cardapio {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 92px;
 }
 
-#tambemtemos3{
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item4.png);
-    float: left;
-    margin-left: 100px;
-    margin-top: 150px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
 
-}
-#tambemtemos4{
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item5.png);
-    float: left;
-    margin-left: 210px;
-    margin-top: 150px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-
+#tambemtemos2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#tambemtemos5{
-    width: 18%;
-    height:240px;
-    background-image: url(imagens/item6.png);
-    float: left;
-    margin-left: 190px;
-    margin-top: 150px;
-    background-repeat: no-repeat;
-    border-radius: 30px;
-
+.peedir {
+    margin-top:100px;
+    margin-left:680px;
+    width:200px;
+    height:50px;
+    border-radius:30px;
 }
-
 
 
 
 
 #menu{
-text-align: center;
-position:relative;
-width:100%;
-height:1000px;
-margin:auto;
-background-color:#db631d;
-display:block;
+    width:100%;
+    height:1100px;
+    background-color:#fa6a21;
 
 
     }
@@ -309,10 +264,26 @@ display:block;
 	width:100%;
 	height:600px;
 	margin:auto;
-	   background-color:#fae41c;
+	background-color:#fcbc0a;
+   
     }
 
-    
+    #informacoes p{
+        margin-top:50px;
+        color:#000;
+    }
+
+    #informacoes h2{
+        margin-top:230px;
+    }
+
+#informacoes img {
+    width: 200px;
+    height: 200px;
+    margin-top: 75px;
+   
+}
+
 
        
 
@@ -369,7 +340,7 @@ display:block;
 
          .nome{
              border: 2px solid #000;
-             margin-left: 180px;
+             margin-left: 280px;
              width: 320px;
              height:30px;
          }
@@ -391,17 +362,17 @@ display:block;
              border: 2px solid #000;
              margin-top: 40px;
              width:700px;
-             margin-left: 330px;
+             margin-left: 430px;
          }
 
          .opiniao{
              color: #000;
              margin-top: 30px;
-             margin-left: 370px;
+             margin-left: 480px;
          }
 
         .rede1{
-            margin-left: 300px;
+            margin-left: 370px;
             display: flex;
             align-items: center;
              color: #ffffff;
@@ -415,7 +386,7 @@ display:block;
 
         .rede2{
              color: #ffffff;
-             margin-left: 630px;
+             margin-left: 730px;
              display: flex;
              align-items: center;
              margin-top: -78px;
@@ -428,7 +399,7 @@ display:block;
 
         .endereco{
             margin-top: 20px;
-            margin-left: 438px;
+            margin-left: 530px;
         }
          
 
